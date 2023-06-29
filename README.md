@@ -2,14 +2,14 @@
 <!--- Comment Out the badges as they don't work anymore --->
 
 [![Version][#vsce-badge-url-version]][#vsce-marketplace-url]
-[![Release Date][#vsce-svg-release-date]][#vsce-marketplace-url]
+[![Release Date][#vsce-badge-url-release-date]][#vsce-marketplace-url]
 [![Downloads][#vsce-badge-url-downloads]][#vsce-marketplace-url]
 [![Installs][#vsce-badge-url-installs]][#vsce-marketplace-url]
 
 [#vsce-badge-url-version]: https://img.shields.io/visual-studio-marketplace/v/sugatoray.vscode-textutils-extension-pack
 [#vsce-badge-url-installs]: https://img.shields.io/visual-studio-marketplace/i/sugatoray.vscode-textutils-extension-pack
 [#vsce-badge-url-downloads]: https://img.shields.io/visual-studio-marketplace/d/sugatoray.vscode-textutils-extension-pack
-[#vsce-badge-release-date]: https://img.shields.io/visual-studio-marketplace/release-date/sugatoray.vscode-textutils-extension-pack
+[#vsce-badge-url-release-date]: https://img.shields.io/visual-studio-marketplace/release-date/sugatoray.vscode-textutils-extension-pack
 
 [#vsce-marketplace-url]: https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-textutils-extension-pack
 <!-- markdownlint-enable MD041 MD052 MD053 -->

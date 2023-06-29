@@ -1,14 +1,14 @@
 <!-- markdownlint-disable MD041 MD052 MD053 -->
 <!--- Comment Out the badges as they don't work anymore --->
 [![Version][#vsce-badge-url-version]][#vsce-marketplace-url]
-[![Release Date][#vsce-svg-release-date]][#vsce-marketplace-url]
+[![Release Date][#vsce-badge-url-release-date]][#vsce-marketplace-url]
 [![Installs][#vsce-badge-url-installs]][#vsce-marketplace-url]
 [![Downloads][#vsce-badge-url-downloads]][#vsce-marketplace-url]
 
 [#vsce-badge-url-version]: https://img.shields.io/visual-studio-marketplace/v/{{ extension_id }}
 [#vsce-badge-url-installs]: https://img.shields.io/visual-studio-marketplace/i/{{ extension_id }}
 [#vsce-badge-url-downloads]: https://img.shields.io/visual-studio-marketplace/d/{{ extension_id }}
-[#vsce-badge-release-date]: https://img.shields.io/visual-studio-marketplace/release-date/{{ extension_id }}
+[#vsce-badge-url-release-date]: https://img.shields.io/visual-studio-marketplace/release-date/{{ extension_id }}
 [#vsce-marketplace-url]: https://marketplace.visualstudio.com/items?itemName={{ extension_id }}
 <!-- markdownlint-enable MD041 MD052 MD053 -->
 
