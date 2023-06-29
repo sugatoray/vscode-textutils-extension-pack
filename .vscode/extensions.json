@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+    "recommendations": [
+        "sugatoray.vscode-markdown-extension-pack",
+        "sugatoray.jinja-extension-pack",
+        "sugatoray.vscode-git-extension-pack",
+        "ms-vscode.remote-repositories",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "gurayyarar.dummytextgenerator",
+        "lacroixdavid1.vscode-format-context-menu",
+        "adamwalzer.string-converter",
+        "ryu1kn.text-marker",
+        "qcz.text-power-tools",
+        "romanpeshkov.vscode-text-tables",
+        "carlocardella.vscode-texttoolbox",
+        "harehare.textusm",
+        "aprilandjan.ascii-tree-generator",
+        "bitbelt.converttoasciiart",
+        "mitchdenny.ecdc",
+        "bibhasdn.unique-lines",
+        "rulyotano.tree-extended",
+        "hideoo.toggler",
+        "tyriar.sort-lines",
+        "iliazeus.vscode-ansi"
+    ]
+}
