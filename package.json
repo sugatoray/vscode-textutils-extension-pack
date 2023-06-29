@@ -2,7 +2,7 @@
     "name": "vscode-textutils-extension-pack",
     "displayName": "Text Utilities Extension Pack",
     "description": "Popular Visual Studio Code extensions for Text Utilities",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sugatoray",
     "author": {
         "name": "Sugato Ray",
@@ -11,14 +11,14 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sugatoray/vscode-remotework-extension-pack"
+        "url": "https://github.com/sugatoray/vscode-textutils-extension-pack"
     },
     "bugs": {
-        "url": "https://github.com/sugatoray/vscode-remotework-extension-pack/issues"
+        "url": "https://github.com/sugatoray/vscode-textutils-extension-pack/issues"
     },
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#f8e45aff",
+        "color": "#f8e45a",
         "theme": "dark"
     },
     "engines": {

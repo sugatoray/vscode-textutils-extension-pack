@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.2
+
+- Updated banner color to `f8e45a`.
+- Updated repository and issue links.
+
 ## 0.0.1
 
 - Initial release.
