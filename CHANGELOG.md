@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+
+- Updated VS Code version dependency to `^1.70.0`.
+  > This will allow code-server to install this extension pack.
+
 ## 1.0.1
 
 - Updated badges and README.
