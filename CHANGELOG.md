@@ -1,12 +1,16 @@
 # Changelog
 
+## 1.0.0
+
+- Updated keywords.
+
 ## 0.0.3
 
 - Updated banner color to `#089f8f` for better readability.
 
 ## 0.0.2
 
-- Updated banner color to `f8e45a`.
+- Updated banner color to `#f8e45a`.
 - Updated repository and issue links.
 
 ## 0.0.1

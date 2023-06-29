@@ -2,7 +2,7 @@
     "name": "vscode-textutils-extension-pack",
     "displayName": "Text Utilities Extension Pack",
     "description": "Popular Visual Studio Code extensions for Text Utilities",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "publisher": "sugatoray",
     "author": {
         "name": "Sugato Ray",
@@ -26,10 +26,18 @@
     },
     "keywords": [
         "text",
-        "utilities",
-        "text-utils",
+        "productivity",
+        "sorting",
+        "text-processing",
+        "text-sorting",
         "text-utilities",
-        "productivity"
+        "text-utils",
+        "utilities",
+        "ansi-color",
+        "ascii",
+        "ascii-art",
+        "ascii-tree",
+        "directory-tree"
     ],
     "categories": [
         "Extension Packs"
