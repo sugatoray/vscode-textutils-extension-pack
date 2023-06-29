@@ -1,0 +1,12 @@
+*.vsix
+.DS_Store
+*/.env.secret
+*/.env
+composer/staging/
+.trunk
+.venv/
+
+__pycache__/
+**/.ipynb_checkpoints
+
+git-sim_media
