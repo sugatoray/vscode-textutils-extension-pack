@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Updated badges and README.
+
 ## 1.0.0
 
 - Updated keywords.

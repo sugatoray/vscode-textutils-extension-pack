@@ -1,15 +1,16 @@
-<!-- markdownlint-disable MD041 -->
-<!--- Comment Out the badges as they don't work anymore
-[![vscode-badge][#vsce-svg-url-version]][#vsce-marketplace-url]
-[![Installs][#vsce-svg-url-installs]][#vsce-marketplace-url] 
-[![Downloads][#vsce-svg-url-downloads]][#vsce-marketplace-url]
+<!-- markdownlint-disable MD041 MD052 MD053 -->
+<!--- Comment Out the badges as they don't work anymore --->
+[![Version][#vsce-badge-url-version]][#vsce-marketplace-url]
+[![Release Date][#vsce-svg-release-date]][#vsce-marketplace-url]
+[![Installs][#vsce-badge-url-installs]][#vsce-marketplace-url]
+[![Downloads][#vsce-badge-url-downloads]][#vsce-marketplace-url]
 
-[#vsce-svg-url-version]: https://vsmarketplacebadge.apphb.com/version/{{ extension_id }}.svg
-[#vsce-svg-url-installs]: https://vsmarketplacebadge.apphb.com/installs/{{ extension_id }}.svg
-[#vsce-svg-url-downloads]: https://vsmarketplacebadge.apphb.com/downloads/{{ extension_id }}.svg
---->
+[#vsce-badge-url-version]: https://img.shields.io/visual-studio-marketplace/v/{{ extension_id }}
+[#vsce-badge-url-installs]: https://img.shields.io/visual-studio-marketplace/i/{{ extension_id }}
+[#vsce-badge-url-downloads]: https://img.shields.io/visual-studio-marketplace/d/{{ extension_id }}
+[#vsce-badge-release-date]: https://img.shields.io/visual-studio-marketplace/release-date/{{ extension_id }}
 [#vsce-marketplace-url]: https://marketplace.visualstudio.com/items?itemName={{ extension_id }}
-<!-- markdownlint-enable MD041 -->
+<!-- markdownlint-enable MD041 MD052 MD053 -->
 
 # VS Code {{ extension_label }}
 
