@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3
+
+- Updated banner color to `#089f8f` for better readability.
+
 ## 0.0.2
 
 - Updated banner color to `f8e45a`.

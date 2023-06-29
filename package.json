@@ -18,9 +18,10 @@
     },
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#f8e45a",
+        "color": "#089f8f",
         "theme": "dark"
     },
+    ""
     "engines": {
         "vscode": "^1.75.0"
     },
