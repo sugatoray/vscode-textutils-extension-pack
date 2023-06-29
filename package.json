@@ -21,7 +21,6 @@
         "color": "#089f8f",
         "theme": "dark"
     },
-    ""
     "engines": {
         "vscode": "^1.75.0"
     },
