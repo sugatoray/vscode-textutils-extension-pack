@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Code refactored. Moved GitHub workflow out of vsix package.
+
 ## 1.0.2
 
 - Updated VS Code version dependency to `^1.70.0`.
