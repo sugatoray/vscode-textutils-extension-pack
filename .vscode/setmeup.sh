@@ -99,6 +99,61 @@ alias select.first='sort | head -n 1'
 ## Select last (n) result
 alias select.last='sort -r | head -n 1'
 
+## Add a prefix or a Suffix
+## cat <lines> | sed -E 's/.*/prefix&'
+## cat <lines> | sed -E 's/.*/&suffix'
+## cat <lines> | sed -E 's/.*/prefix&suffix'
+## piping through functions:
+## - source:
+##   - https://stackoverflow.com/a/36432966/8474894
+##   - https://unix.stackexchange.com/a/114129/390882
+# Leaving the following function commented out as it does not work properly
+# But it is good learning exercise.
+# setprefix.alt() { (
+#     # Usage:
+#     # echo -e "alpha\nbeta\ngamma" | setprefix me 1a
+#     # echo -e "alpha\nbeta\ngamma" | setprefix me 1b
+#     # echo -e "alpha\nbeta\ngamma" | setprefix me 2
+#     _prefix=${1:-"prefix"}; shift;
+#     _option=${1:-"1"}; shift;
+#     alias _applyprefix='sed -E "s/.*/${_prefix}&/"';
+#     if [[ "${_option:0:1}" == "1" ]]; then
+#         declare datalines=${*:-$(</dev/stdin)};
+#         case "$_options" in
+#             1a)
+#                 for data in $(echo ${datalines}); do echo "${data}" | eval "_applyprefix"; done;
+#                 ;;
+#             1b)
+#                 for data in ${datalines}; do echo "${data}" | eval "_applyprefix"; done;
+#                 ;;
+#             *)
+#                 for data in ${datalines}; do echo "${data}" | eval "_applyprefix"; done;
+#                 ;;
+#         esac;
+#     else
+#         while read -r data; do echo "${data}" | eval "_applyprefix"; done;
+#     fi;
+#     unalias _applyprefix;
+# ); }
+
+setprefix() { (
+    # Usage:
+    # echo -e "alpha\nbeta\ngamma" | setprefix me
+    _prefix=${1:-"prefix"};
+    alias _applyprefix='sed -E "s/.*/${_prefix}&/"';
+    while read -r data; do echo "${data}" | eval "_applyprefix"; done;
+    unalias _applyprefix;
+); }
+
+setsuffix() { (
+    # Usage:
+    # echo -e "alpha\nbeta\ngamma" | setsuffix me
+    _suffix=${1:-"suffix"};
+    alias _applysuffix='sed -E "s/.*/&${_suffix}/"';
+    while read -r data; do echo "${data}" | eval "_applysuffix"; done;
+    unalias _applysuffix;
+); }
+
 ## Catch SAS Log Erors
 alias saslogerror='grep -inH -E "ERROR\:|_ERROR_\=1"'
 alias sle='saslogerror'
