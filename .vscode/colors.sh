@@ -145,7 +145,7 @@ On_IWhite='\033[0;107m'   # White
 
 ## Example:
 democolors() {
-    echo -e "\n\t${cFGBYellow}SOURCE:${cReset} ${cDim}${cFGYellow}some/source${cReset}\n\t${cFGBGreen}TARGET:${cReset} ${cDim}${cFGGreen}some/target${cReset}\n";
+    echo -e "\n\t${cBGBYellow}SOURCE:${cReset} ${cDim}${cFGYellow}some/source${cReset}\n\t${cBGBGreen}TARGET:${cReset} ${cDim}${cFGGreen}some/target${cReset}\n";
 }
 
 # Reset
