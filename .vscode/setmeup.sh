@@ -67,10 +67,10 @@ alias splitlines='tr -s " " "\n"'
 ## - source: https://unix.stackexchange.com/questions/337911
 ## - usage:
 ##   >>> cat file.txt | dropcomments
-## TODO: expand the scope of this alias to cover both of the following scenarios.
+## Handles both of the following scenarios.
 ##       - # some comment
 ##       -   # another comment with white spaces before the "#"
-alias dropcomments='grep -v "^#"'
+alias dropcomments='grep -v -E "^\s*#"'
 
 ## Replace only tabs on the left of each line with 4 spaces each
 alias tabtospaces='expand -t 4 -i'
