@@ -6,6 +6,13 @@
 ##? For soft-resetting last 3 git commits:
 ##^ git reset --soft HEAD~3
 
+## Generic Aliases
+alias ls='ls --color'
+alias cfind='find . -exec ls -Flash --color {} \;'
+alias tolower='tr [:upper:] [:lower:]'
+alias toupper='tr [:lower:] [:upper:]'
+
+
 ## Git Commands as Aliases
 alias getrepo='git rev-parse --show-toplevel 2>/dev/null'
 alias getrepo-dirname='basename $(getrepo)'
