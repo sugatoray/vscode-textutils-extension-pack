@@ -179,7 +179,7 @@
     "cSpell.customDictionaries": {
         "custom-dictionary-workspace": {
             "name": "custom-dictionary-workspace",
-            "path": "${workspaceFolder:vscode-remotework-extension-pack}/.cspell/custom-dictionary-workspace.txt",
+            "path": "${workspaceFolder:vscode-textutils-extension-pack}/.cspell/custom-dictionary-workspace.txt",
             "addWords": true,
             "scope": "workspace"
         }
@@ -225,4 +225,45 @@
     "files.trimTrailingWhitespace": false,
     // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
     "files.trimFinalNewlines": false,
+
+    // Autoplay Videos
+    "mediaPreview.video.autoPlay": false,
+    "mediaPreview.video.loop": false,
+    // Use GitIgnore Behavior in Searching
+    "search.useIgnoreFiles": true,
+    // Paste images in markdown format
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": true,
+    "editor.pasteAs.enabled": true,
+
+    // Display images in integrated terminal
+    "terminal.integrated.enableImages": true,
+
+    // Subword selection support
+    /*
+        - true -> Co|deEditor selects [Code]Editor, then [CodeEditor]
+        - false -> Co|deEditor selects [CodeEditor]
+    */
+    "editor.smartSelect.selectSubwords": true,
+
+    // GitHub CoPilot Settings
+    "github.copilot.advanced": {
+        "slashCommands": {
+            "createWorkspace": true,
+            "createNotebook": true,
+            "search": true
+        }
+    },
+
+    // Extension Update Settings: Only Valid in User Settings
+    "extensions.autoUpdate": true,
+
+    // Diff Editor Settings: Experimental
+    "diffEditor.experimental.useVersion2": true
+    "diffEditor.experimental.collapseUnchangedRegions": true,
+    "diffEditor.experimental.showEmptyDecorations": true,
+    "diffEditor.experimental.showMoves": true,
+
+    // Notebook Settings
+    "notebook.globalToolbarShowLabel": "always",
+    "notebook.experimental.remoteSave": true
 }
