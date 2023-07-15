@@ -258,7 +258,7 @@
     "extensions.autoUpdate": true,
 
     // Diff Editor Settings: Experimental
-    "diffEditor.experimental.useVersion2": true
+    "diffEditor.experimental.useVersion2": true,
     "diffEditor.experimental.collapseUnchangedRegions": true,
     "diffEditor.experimental.showEmptyDecorations": true,
     "diffEditor.experimental.showMoves": true,
