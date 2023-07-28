@@ -27,10 +27,10 @@ PROJECT_CONDA_ENV="fav_env"
 
 setcolors && setmeup && loadvars || true
 
-PROJECT_NAME="$(getrepo-dirname || echo $PROJECT_NAME)"
+PROJECT_NAME="$(getrepo-dirname || echo "${PROJECT_NAME}")"
 
 # formatsetconda $PROJECT_NAME $PROJECT_CONDA_ENV || 
-conda activate $PROJECT_CONDA_ENV
+conda activate "${PROJECT_CONDA_ENV}"
 
 unset \
     PROJECT_NAME \
