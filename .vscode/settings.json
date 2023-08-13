@@ -64,10 +64,11 @@
           ! - [6] "Night Owl"
           ! - [7] "DuoTone Dark Sea"
           ! - [8] "Community Material Theme Palenight High Contrast"
-          ! - [10] "Bearded Theme feat. Gold D Raynh"
-          * - [9] "Default Dark+"
+          ! - [9] "Bearded Theme feat. Gold D Raynh"
+          ! - [10] "Gruvbox Glass"
+          * - [11] "Default Dark+"
     */
-    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Gruvbox Glass",
     // *Integrated terminal Font Family*:
     /*
         @@ field: "terminal.integrated.fontFamily"
