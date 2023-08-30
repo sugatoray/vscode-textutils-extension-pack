@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Added extension `yo1dog.cursor-align` (Cursor Align).
+
 ## 1.0.3
 
 - Code refactored. Moved GitHub workflow out of vsix package.

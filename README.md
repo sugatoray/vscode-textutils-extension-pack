@@ -2,9 +2,11 @@
 <!--- Comment Out the badges as they don't work anymore --->
 
 [![Version][#vsce-badge-url-version]][#vsce-marketplace-url]
+<!---
 [![Release Date][#vsce-badge-url-release-date]][#vsce-marketplace-url]
 [![Downloads][#vsce-badge-url-downloads]][#vsce-marketplace-url]
 [![Installs][#vsce-badge-url-installs]][#vsce-marketplace-url]
+--->
 
 [#vsce-badge-url-version]: https://img.shields.io/visual-studio-marketplace/v/sugatoray.vscode-textutils-extension-pack
 [#vsce-badge-url-installs]: https://img.shields.io/visual-studio-marketplace/i/sugatoray.vscode-textutils-extension-pack
@@ -40,6 +42,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 | `14` | 🎁 [Toggler](https://marketplace.visualstudio.com/items?itemName=hideoo.toggler) <br/> <p><ul> Toggle words and symbols. </ul></p> |
 | `15` | 🎁 [Sort lines](https://marketplace.visualstudio.com/items?itemName=tyriar.sort-lines) <br/> <p><ul> Sorts lines of text. </ul></p> |
 | `16` | 🎁 [ANSI Colors](https://marketplace.visualstudio.com/items?itemName=iliazeus.vscode-ansi) <br/> <p><ul> ANSI color styling for text documents. </ul></p> |
+| `17` | 🎁 [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) <br/> <p><ul> Aligns all cursors using spaces. </ul></p> |
 
 <!-- ### TABLE: END ### -->
 

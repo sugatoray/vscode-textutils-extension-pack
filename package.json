@@ -58,7 +58,8 @@
         "rulyotano.tree-extended",
         "hideoo.toggler",
         "tyriar.sort-lines",
-        "iliazeus.vscode-ansi"
+        "iliazeus.vscode-ansi",
+        "yo1dog.cursor-align"
     ],
     "pricing": "Free",
     "scripts": {
