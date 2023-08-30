@@ -2,7 +2,7 @@
     "name": "vscode-textutils-extension-pack",
     "displayName": "Text Utilities Extension Pack",
     "description": "Popular Visual Studio Code extensions for Text Utilities",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "sugatoray",
     "author": {
         "name": "Sugato Ray",
