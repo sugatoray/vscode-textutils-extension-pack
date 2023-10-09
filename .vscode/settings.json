@@ -263,9 +263,21 @@
     "diffEditor.experimental.useVersion2": true,
     "diffEditor.experimental.showEmptyDecorations": true,
     "diffEditor.experimental.showMoves": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
 
     // Notebook Settings
     "notebook.globalToolbarShowLabel": "always",
     "notebook.experimental.remoteSave": true,
-    "diffEditor.hideUnchangedRegions.enabled": true
+    "notebook.formatOnCellExecution": true,
+
+    // Paste As Option
+    "editor.pasteAs.showPasteSelector": "afterPaste",
+
+    // Branch Warnings
+    "branchwarnings.protectedBranches": [
+        "main",
+        "master",
+        "prerelease",
+        "releases/**"
+    ]
 }
