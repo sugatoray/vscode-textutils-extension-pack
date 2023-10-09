@@ -23,6 +23,8 @@
         "tyriar.sort-lines",
         "iliazeus.vscode-ansi",
         "ahmadawais.emoji-log-vscode",
-        "yo1dog.cursor-align"
+        "yo1dog.cursor-align",
+        "serhioromano.vscode-gitflow",
+        "teledemic.branch-warnings"
     ]
 }
