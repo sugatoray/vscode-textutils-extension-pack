@@ -5,6 +5,7 @@
 composer/staging/
 .trunk
 .venv/
+.trash
 
 __pycache__/
 **/.ipynb_checkpoints
