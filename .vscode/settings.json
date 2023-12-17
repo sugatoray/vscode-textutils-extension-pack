@@ -279,5 +279,6 @@
         "master",
         "prerelease",
         "releases/**"
-    ]
+    ],
+    "julia.environmentPath": "/Users/sugatoray/Documents/CodePlex/Git/Github/vscode-textutils-extension-pack"
 }
