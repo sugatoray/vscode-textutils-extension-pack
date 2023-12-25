@@ -34,6 +34,9 @@
         "revrenlove.c-sharp-utilities",
         "richardzampieriprog.csharp-snippet-productivity",
         "vin-liberty.powershell-snippets",
-        "graphite.gti-vscode"
+        "graphite.gti-vscode",
+        "shardulm94.trailing-spaces",
+        "stkb.rewrap",
+        "ctf0.macros"
     ]
 }
