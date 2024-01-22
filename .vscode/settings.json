@@ -68,7 +68,7 @@
           ! - [10] "Gruvbox Glass"
           * - [11] "Default Dark+"
     */
-    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
     // *Integrated terminal Font Family*:
     /*
         @@ field: "terminal.integrated.fontFamily"
