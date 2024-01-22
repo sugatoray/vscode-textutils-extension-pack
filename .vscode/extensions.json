@@ -37,6 +37,13 @@
         "graphite.gti-vscode",
         "shardulm94.trailing-spaces",
         "stkb.rewrap",
-        "ctf0.macros"
+        "ctf0.macros",
+        "arturock.gitstash",
+        "bee.git-temporal-vscode",
+        "piotrpalarz.vscode-gitignore-generator",
+        "jrosco.git-notes",
+        "ziyasal.vscode-open-in-github",
+        "howardzuo.vscode-git-tags",
+        "shaharkazaz.git-merger"
     ]
 }
