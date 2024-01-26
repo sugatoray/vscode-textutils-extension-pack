@@ -163,7 +163,7 @@ py.clear: # Clear off various python artifacts (files/folders)
 .PHONY: py.genreadme
 py.genreadme:
 	@echo "\n✨ Generate README.md from package.json... ⏳\n"
-	{{PYTHON}} ./composer/compose.py
+	$(PYTHON) ./composer/compose.py
 
 #########################################################
 
