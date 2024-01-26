@@ -20,8 +20,15 @@ VSCE_TOKEN_URL := "https://dev.azure.com/{{VSCE_PUBLISHER}}/_usersSettings/token
 ####################### PARAMETERS ###########################
 
 help:
-	@echo "\n Makefile Commands' Help\n"
+	@echo "\n:::Makefile Commands' Help:::\n"
 	# Commands:
+	#
+	# info-install-just :	Info on how to install Just
+	#
+	# install-node      :	Install Node.js
+	# install-vsce      :	Install VSCE
+	# install-ovsx      :	Install OVSX
+	# install-all       :	Install Node.js, VSCE, and OVSX
 	#
 	# vsix-move         :	Move the .vsix artifact(s) under .artifacts folder.
 	# vsix-clear        :	Clear the .vsix files from .artifacts folder.
@@ -31,7 +38,7 @@ help:
 	# pkg-release       :	Build and Publish the extension.
 	#
 	# vsce-open         :	Opens the VS Code Extension Management page for a Publisher.
-	# vsce-token        :	Opens the Azure DevOps Page to Manage the Personal Access Token for VSCE-
+	# vsce-token        :	Opens the Azure DevOps Page to Manage the Personal Access Token for VSCE.
 	# vsce-metadata     :	Fetches extension metadata
 	# vsce-extn         :	Opens the Marketplace Extension Page in Browser
 	#
@@ -46,6 +53,46 @@ help:
 	# 
 
 ############################## ..: COMMANDS :.. ################################
+
+info-install-just:
+	@echo "\n Info: How to install Just... ⏳\n"
+	# Refer to: https://github.com/casey/just#installation
+	#
+	# - generic:
+	#   - homebrew: brew install just
+	#   - rust: cargo install just
+	#   - conda: conda install -c conda-forge just
+	# 
+	# - macos:
+	#   - macports: port install just
+	#   - homebrew: brew install just
+	#
+	# - linux: 
+	#   - debian/ubuntu: sudo apt install just
+	#   - fedora: sudo dnf install just
+	#   - linuxbrew: brew install just
+	#
+	# - windows: 
+	#   - chocolatey: choco install just
+	#   - scoop: scoop install just
+	@echo "\n"
+
+install-node:
+	@echo "\n Installing Node.js... ⏳\n"
+	brew install npm
+
+install-vsce:
+	@echo "\n Installing vsce... ⏳\n"
+	@# Uninstall existing version of vsce with: npm uninstall -g vsce
+	npm install -g @vscode/vsce
+
+install-ovsx:
+	@echo "\n Installing ovsx... ⏳\n"
+	@# Uninstall existing version of ovsx with: npm uninstall -g ovsx
+	npm install -g ovsx
+
+install-all: install-node install-vsce install-ovsx
+	@echo "\n✨ Installing node.js, vsce and ovsx... ⏳\n"
 
 vsix-move:
 	@echo "\n Moving .vsix files to .artifacts folder... ⏳\n"
@@ -62,9 +109,9 @@ pkg-build:
 pkg-publish:
 	@echo "\n📘📄 Publishing... ⏳\n"
 	# Publish to VS Code Marketplace: using vsce
-	vsce publish -p ${VSCE_PAT}
+	@vsce publish -p ${VSCE_PAT}
 	# Publish to open-vsx.org: using ovsx
-	ovsx publish -p ${OVSX_PAT}
+	@ovsx publish -p ${OVSX_PAT}
 
 pkg-release: pkg-build vsix-move pkg-publish vsix-move vsix-clear
 	@echo "\n✨ Releasing... ⏳\n"
@@ -108,6 +155,7 @@ py-clear: # Clear off various python artifacts (files/folders)
 py-genreadme:
 	@echo "\n✨ Generate README.md from package.json... ⏳\n"
 	{{PYTHON}} ./composer/compose.py
+
 #########################################################
 
 # .PHONY: test-envar
