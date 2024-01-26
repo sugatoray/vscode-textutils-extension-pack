@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Added extension `stkb.rewrap` (Rewrap).
+
 ## 1.0.4
 
 - Added extension `yo1dog.cursor-align` (Cursor Align).

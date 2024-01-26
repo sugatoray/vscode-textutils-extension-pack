@@ -2,7 +2,7 @@
     "name": "vscode-textutils-extension-pack",
     "displayName": "Text Utilities Extension Pack",
     "description": "Popular Visual Studio Code extensions for Text Utilities",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "publisher": "sugatoray",
     "author": {
         "name": "Sugato Ray",
@@ -59,7 +59,8 @@
         "hideoo.toggler",
         "tyriar.sort-lines",
         "iliazeus.vscode-ansi",
-        "yo1dog.cursor-align"
+        "yo1dog.cursor-align",
+        "stkb.rewrap"
     ],
     "pricing": "Free",
     "scripts": {

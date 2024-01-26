@@ -43,6 +43,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 | `15` | 🎁 [Sort lines](https://marketplace.visualstudio.com/items?itemName=tyriar.sort-lines) <br/> <p><ul> Sorts lines of text. </ul></p> |
 | `16` | 🎁 [ANSI Colors](https://marketplace.visualstudio.com/items?itemName=iliazeus.vscode-ansi) <br/> <p><ul> ANSI color styling for text documents. </ul></p> |
 | `17` | 🎁 [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) <br/> <p><ul> Aligns all cursors using spaces. </ul></p> |
+| `18` | 🎁 [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) <br/> <p><ul> Hard word wrapping for comments and other text at a given column. </ul></p> |
 
 <!-- ### TABLE: END ### -->
 
