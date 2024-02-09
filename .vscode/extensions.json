@@ -44,6 +44,9 @@
         "jrosco.git-notes",
         "ziyasal.vscode-open-in-github",
         "howardzuo.vscode-git-tags",
-        "shaharkazaz.git-merger"
+        "shaharkazaz.git-merger",
+        "shd101wyy.markdown-preview-enhanced",
+        "kevinrose.vsc-python-indent",
+        "njqdev.vscode-python-typehint"
     ]
 }
