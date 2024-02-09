@@ -44,6 +44,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
 | `16` | 🎁 [ANSI Colors](https://marketplace.visualstudio.com/items?itemName=iliazeus.vscode-ansi) <br/> <p><ul> ANSI color styling for text documents. </ul></p> |
 | `17` | 🎁 [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) <br/> <p><ul> Aligns all cursors using spaces. </ul></p> |
 | `18` | 🎁 [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) <br/> <p><ul> Hard word wrapping for comments and other text at a given column. </ul></p> |
+| `19` | 🎁 [Markdown Table Prettifier](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify) <br/> <p><ul> Transforms markdown tables to be more readable. </ul></p> |
+| `20` | 🎁 [Better Align](https://marketplace.visualstudio.com/items?itemName=chouzz.vscode-better-align) <br/> <p><ul> Better vertical alignment with/without selection in any language for any characters or words. </ul></p> |
+| `21` | 🎁 [Ultra Math Preview](https://marketplace.visualstudio.com/items?itemName=yfzhao.ultra-math-preview) <br/> <p><ul> Real-time math preview for LaTeX and markdown. </ul></p> |
+
+$$ x = \frac{dy}{dz} $$
 
 <!-- ### TABLE: END ### -->
 

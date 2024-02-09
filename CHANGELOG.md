@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0
+
+- Added extensions:
+  
+  - `darkriszty.markdown-table-prettify` (Markdown Table Prettifier).
+  - `chouzz.vscode-better-align` (Better Align).
+  - `yfzhao.ultra-math-preview` (Ultra Math Preview).
+
 ## 1.1.0
 
 - Added extension `stkb.rewrap` (Rewrap).
