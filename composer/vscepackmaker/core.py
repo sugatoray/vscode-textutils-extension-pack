@@ -254,6 +254,7 @@ class ExtensionPackMetadata:
             readme = f.read()
 
         readme = re.sub("{{ extension_label }}", self.extension_label, readme)
+        readme = re.sub("{{ extension_label_short }}", self.extension_label.replace("Extension Pack").strip(), readme)
         readme = re.sub("{{ extension_id }}", self.extension_id, readme)
         readme = re.sub("{{ extension_publisher }}", self.extension_publisher, readme)
         readme = re.sub("{{ extension_name }}", self.extension_name, readme)

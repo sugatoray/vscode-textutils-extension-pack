@@ -14,7 +14,7 @@
 
 # VS Code {{ extension_label }}
 
-This extension pack packages some of the most popular (and some of my favorite) Text Utilities' related extensions.
+This extension pack packages some of the most popular (and some of my favorite) {{ extension_label_short }} related extensions.
 
 ## Extensions Included
 
@@ -40,7 +40,7 @@ __Enjoy!__ 🎁 ✨ 🎉
 
 The easiest way to install is directly from within VS Code (search extensions for `{{ extension_id }}`).
 
-You can also install from the [VS Code Extension Marketplace][#vsce-marketplace-url], the [Open VSX Registry][#ovsx-registry] or directly from a [VISX extension file][#vsix-install].
+You can also install from the [VS Code Extension Marketplace][#vsce-marketplace-url] <!---, the [Open VSX Registry][#ovsx-registry] or ---> directly from a [VISX extension file][#vsix-install].
 
 [#ovsx-registry]: https://open-vsx.org/extension/{{ extension_publisher }}/{{ extension_name }}
 [#vsix-install]: https://marketplace.visualstudio.com/items?itemName={{ extension_id }}#visx-install
@@ -63,7 +63,7 @@ You can follow me (Sugato Ray) here.
 - Twitter: [@sugatoray](https://twitter.com/sugatoray)
 - GitHub: [@sugatoray](https://github.com/sugatoray)
 
-> __Attribution__: :clap::clap:
+> __Attribution__: 👏👏
 >
 > The icon used here was downloaded and adapted from <a href="https://www.flaticon.com/free-icons/server" title="server icons">this</a> icon on Flaticon.com.
 > 
